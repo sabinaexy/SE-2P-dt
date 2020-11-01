@@ -1,1 +1,135 @@
+/* Mobile version */
+/* Body container */
 
+html,
+body {
+height: 100%;
+width: 100%;
+overflow-y: auto;
+}
+
+body {
+background-color: lightslategray;
+margin: 0;
+}
+
+body header {
+background-image: url("images/blur.png");
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+
+}
+
+/* Header/Nav */
+
+header {
+   justify-content: center;
+   text-align: center;
+  } 
+
+header nav {
+display: flex;
+justify-content: center;
+background-color: #b15e6c;
+padding: 20px;
+overflow-y: auto;
+}
+
+header nav ul {
+display: flex;
+padding-left: 0;
+list-style: none;
+overflow-y: auto;
+}
+
+header nav ul li a {
+margin: 0 20px 0 0;
+font-family: fantasy;
+color: #3f334d;
+font-size: 18px;
+overflow-y: auto;
+}
+
+/* Introduction and About Container */
+
+#intro-about-container h3 {
+    text-align: center;
+    color: #476A6F ;
+}
+
+#intro-about-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+#intro-about-container .item {
+color: #30474B;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 45%;
+padding: 10px;
+}
+
+#intro-about-container .item p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: -5px;
+  }
+
+img {
+    max-width: 50%;
+    width: 200px;
+    margin: 10px;
+  }
+
+h1 {
+color: blue;
+}
+
+/* Desktop Version */
+@media all and (min-width: 600px) {
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+header nav {
+    padding: 2px;
+}
+
+header nav ul li a {
+    font-size: 35px;
+}
+
+#intro-about-container .item {
+text-align: center;
+    }
+
+img {
+    max-width: 30%;
+}
+
+header img {
+    max-width: 70%;
+    width: 200px;
+
+}
+
+.img-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  }

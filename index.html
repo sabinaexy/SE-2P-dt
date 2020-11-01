@@ -8,9 +8,9 @@
     </head>
 
     <body>
-        <head>
+        <header>
             <h1>Sabina Exy</h1>
-            <h2>Software Engineer</h2>
+            <h2> Future Software Engineer</h2>
             <div class="header-img">
                 <img src="images/lcs.jpeg" alt="Sabina" width="300"/>
             </div>
@@ -18,13 +18,99 @@
             <div>
                 <nav>
                     <ul id="menu">
-                        <li><a> href="/">Home</a></li>
-                        <li><a> href="/">About</a></li>
-                        <li><a> href="/">Portfolio</a></li>
-                        <li><a> href="/">Contact</a></li>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-        </head>
+        </header>
+
+        <main>
+            <!-- check if section needs a class="full-width"-->
+           <section class="full-width" id="intro-about-container"> 
+           <div class="item">
+            <h3>Introduction</h3>
+            <p>My name is Sabina Exy. I was born and raised in sunny South Florida.
+                I am a person who has many interests and want to dabble in them all.
+                When I'm not working I enjoy traveling, attending concerts, reading
+                Sci-Fi books, and trying new activities with my friends. Currently, I
+                work with 16-23 young adults to prepare them for <i>independent living</i> and also work
+                as a Life Coach on the side.</p>
+           <div class="img-item">
+            <img src="images/cuba.jpeg" alt="waterfall" />
+            <img src="images/khalid.jpeg" alt="concert" />
+            <img src="images/balloons.jpeg" alt="balloons" />
+           </div>  
+           </div>
+
+           <div class="item">
+            <h3>About Me</h3>
+            <p>
+              Back in MySpace days I use to work with code to create my own
+              backgrounds and pages. I also used to dabble in Photoshop, so I'm
+              excited to make a career change into the tech world. Ready to use my
+              creativity along with others who share similar passions to create
+              from scratch. One day, I'll offer services such as web development,
+              wed design, and graphic design.
+            </p>
+            <div class="img-item">
+              <img src="images/3d.jpeg" alt="3deffect" />
+              <img src="images/pinklight.jpeg" alt="glow" />
+              <img src="images/YellowDispersion.png" alt="basketball" />
+            </div>
+            </div>
+           </section>
+
+           <section class="full-width" id="project-container">
+            <div class="project-item">
+                <h3>Projects</h3>
+                <h4>
+                Client Website:
+                <a href="https://github.com/sabinaexy/VelvetViews">Velvet Views</a>
+                </h4>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+                sit natus, molestiae odit adipisci expedita modi sunt nihil maxime
+                dicta qui accusantium, tempora impedit sint alias a facilis dolorem
+                officiis?
+                </p>
+                <h4>
+                Personal project:
+                <a href="https://github.com/sabinaexy">Gaming App</a>
+                </h4>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
+                sit natus, molestiae odit adipisci expedita modi sunt nihil maxime
+                dicta qui accusantium, tempora impedit sint alias a facilis dolorem
+                officiis?
+                </p>
+            </div>
+           </section>
+        </main>
+
+        <footer class="full-width">
+            <h3>Reach Out!</h3>
+            <p>Email: sabinaexy@yahoo.com</p>
+            <div class="block-item">
+              <!-- Add links to each social media-->
+              <a class="social-media-links" href="https://github.com/sabinaexy">Github</a> |
+              <a class="social-media-links" href="https://twitter.com/home?lang=en">Twitter</a> |
+              <a class="social-media-links" href="https://www.linkedin.com/in/sabina-exy-3690a8194/">LinkedIn</a>
+            </div>
+                <form>
+                  <label for="user-name">Name:</label>
+                  <input id="user-name" type="text" name="name"/>
+            
+                  <label for="email">Email:</label>
+                  <input id="email" type="text" name="email"/></form>
+      
+                <form>
+                  <button type="submit">Submit</button>
+                  <button type="reset">Reset</button></form>
+      
+                <form action="https://formspree.io/f/xoqpdlwl"method="post"></form>
+          </footer>
     </body>
 </html>
